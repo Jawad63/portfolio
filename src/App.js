@@ -11,7 +11,7 @@ import Error from "./pages/Error";
 const App = () => {
   return (
     <BrowserRouter>
-      <Switch>
+      <Switch> {/* Switch locates the fastest path that matches and renders it. */}
 
         <Route path="/" exact>
           <Homepage />
@@ -24,7 +24,7 @@ const App = () => {
         <Route path="*">
           <Error />
         </Route>
-        
+
       </Switch>
     </BrowserRouter>
   );

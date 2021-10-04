@@ -1,13 +1,79 @@
-body {
+:root {
+  --background-image: linear-gradient(
+    120deg,
+    #144661,
+    rgba(1, 84, 69, 0.3)
+  );
+}
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ul {
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "Yaldevi", sans-serif;
+}
+
+a {
+  font-family: inherit;
+  text-decoration: none;
+  color: white;
+}
+
+/* Home Page:  */
+
+.homepage {
+  background: url("./assets/wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.homepage .overlay {
+  background-image: var(--background-image);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+
+.homepage .overlay h1 {
+  text-transform: uppercase;
+  font-size: 5rem;
+}
+
+.homepage .overlay p {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.homepage .overlay ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.homepage .overlay ul li {
+  margin: 0 20px;
+}
+
+.homepage .overlay ul li a {
+  font-size: 40px;
+}
+
+.homepage .overlay ul li a:hover {
+  color: black;
 }
