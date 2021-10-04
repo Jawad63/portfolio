@@ -4,14 +4,15 @@ import { FiMenu } from "react-icons/fi";
 
 const Menu = () => {
    return (
-      <> 
-         <header>
-
-            <div className="menu-btn">
+      <>
+         
+         <div className="menu-btn">
                <button>
                   <FiMenu />
                </button>
-            </div>
+         </div>
+
+         <header className="header">
 
             <nav>
                <ul>
