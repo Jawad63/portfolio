@@ -73,6 +73,10 @@ a {
   min-height: 100vh;
 }
 
+.header nav ul li {
+  margin: 20px 0;
+  font-size: 30px;
+}
 
 
 /* Home Page:  */
