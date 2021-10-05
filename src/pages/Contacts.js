@@ -6,17 +6,18 @@ const Contacts = () => {
          
          <section className="contacts">
             <h1>Contact Me</h1>
+
             <ul>
-               <li>  
+               <li>
                   <a href="tel:+32465288957">
-                     <FaPhone />
+                     <FaPhone style={{ margin: 5 }}  />
                      +32 465 28 89 57
                   </a>
                </li>
 
                <li>
                   <a href="mailto:jawadqureshi111@gmail.com">
-                     <FaEnvelope />
+                     <FaEnvelope style={{ margin: 5 }}  />
                      jawadqureshi111@gmail.com
                   </a>
                </li>

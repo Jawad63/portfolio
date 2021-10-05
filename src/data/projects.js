@@ -7,7 +7,7 @@ export const projects = [
       desc: "This is my first project",
       github: "",
       demo: "",
-      image: "./images/project-1.jpeg",
+      image: "./images/snakegame.png",
    },
 
    {
@@ -16,7 +16,7 @@ export const projects = [
       desc: "This is my second project",
       github: "",
       demo: "",
-      image: "./images/project-2.jpeg",
+      image: "./images/weatherapp.png",
    },
 
    {
@@ -25,6 +25,6 @@ export const projects = [
       desc: "This is my third project",
       github: "",
       demo: "",
-      image: "./images/project-3.jpeg",
+      image: "./images/CRUD.png",
    },
 ]
