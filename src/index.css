@@ -129,6 +129,13 @@ a {
   color: black;
 }
 
+
+/* Contacts */
+
+
+
+/* Media Queries */
+
 @media (min-width: 992px) {
   .homepage .overlay h1 {
     font-size: 60px;
