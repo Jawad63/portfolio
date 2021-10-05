@@ -96,6 +96,7 @@ a {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  text-align: center;
 }
 
 
@@ -126,4 +127,30 @@ a {
 
 .homepage .overlay ul li a:hover {
   color: black;
+}
+
+@media (min-width: 992px) {
+  .homepage .overlay h1 {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 500px) {
+
+  .menu-btn {
+    right: 30px;
+  }
+
+  .homepage .overlay h1 {
+    font-size: 35px;
+  }
+
+  .homepage .overlay p {
+    font-size: 23px;
+    margin-top: 20px;
+  }
+
+  .homepage .overlay ul li a {
+    font-size: 26px;
+  }
 }
