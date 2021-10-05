@@ -23,7 +23,7 @@ img {
 
 body {
   font-family: "Yaldevi", sans-serif;
-  overflow: hidden;
+  overflow: auto;
 }
 
 a {
@@ -82,7 +82,8 @@ a {
 /* Home Page:  */
 
 .homepage {
-  background: url("./assets/wallpaper.jpg");
+  background: url("./wallpaper.jpg");
+  background: url("");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
